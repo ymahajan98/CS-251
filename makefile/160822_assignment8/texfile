@@ -1,0 +1,91 @@
+\documentclass[14pt]{extreport}
+\usepackage{geometry}
+ \geometry{
+ a4paper,
+ total={170mm,257mm},
+ left=20mm,
+ top=20mm,
+ right=15mm
+}
+\textwidth 6in \textheight 10 in
+\usepackage{graphicx}
+\begin{document}
+\author{Yash Mahajan(160822)}
+\title{CS251: Assignment 8}
+\date{March 25, 2018}
+\maketitle
+\clearpage
+\begin{figure}
+  \includegraphics[width=\linewidth]{scatter1.eps}
+  \caption{Thread 1}
+  \label{fig:Scatter graph}
+\end{figure}
+\noindent This is the scatter point graph when the number of threads are 1.\\
+We have plotted the time for various total elements.\\
+The number of elements are 1000,10000,100000,1000000.\\
+\clearpage
+\begin{figure}
+  \includegraphics[width=\linewidth]{scatter2.eps}
+  \caption{Thread 2}
+  \label{fig:Scatter graph}
+\end{figure}
+\noindent This is the scatter point graph when the number of threads are 2.\\
+We have plotted the time for various total elements.\\
+The number of elements are 1000,10000,100000,1000000.\\
+\clearpage
+\begin{figure}
+  \includegraphics[width=\linewidth]{scatter3.eps}
+  \caption{Thread 4}
+  \label{fig:Scatter graph}
+\end{figure}
+\noindent This is the scatter point graph when the number of threads are 4.\\
+We have plotted the time for various total elements.\\
+The number of elements are 1000,10000,100000,1000000.\\
+\clearpage
+\begin{figure}
+  \includegraphics[width=\linewidth]{scatter4.eps}
+  \caption{Thread 8}
+  \label{fig:Scatter graph}
+\end{figure}
+\noindent This is the scatter point graph when the number of threads are 8.\\
+We have plotted the time for various total elements.\\
+The number of elements are 1000,10000,100000,1000000.\\
+\clearpage
+\begin{figure}
+  \includegraphics[width=\linewidth]{scatter5.eps}
+  \caption{Thread 16}
+  \label{fig:Scatter graph}
+\end{figure}
+\noindent This is the scatter point graph when the number of threads are 16.\\
+We have plotted the time for various total elements.\\
+The number of elements are 1000,10000,100000,1000000.\\
+\clearpage
+\begin{figure}
+  \includegraphics[width=\linewidth]{line.eps}
+  \caption{For all threads}
+  \label{fig:Line graph}
+\end{figure}
+\noindent This is the line graph for all the threads plotted in a single graph.\\
+The line graph is plotted versus the average time taken by that number of threads.\\
+The number of elements are 1000,10000,100000,1000000.\\
+\clearpage
+\begin{figure}
+  \includegraphics[width=\linewidth]{speedup_color.eps}
+  \caption{Without error bars}
+  \label{fig:Bar Graph}
+\end{figure}
+\noindent This is the bar graph of total number of elements versus the speedup.\\
+All the threads have been plotted in the same graph in order to compare the time taken by them.\\ 
+The number of elements are 1000,10000,100000,1000000.\\
+\clearpage
+\begin{figure}
+  \includegraphics[width=\linewidth]{speedup_errorbar.eps}
+  \caption{With error bars}
+  \label{fig:Bar Graph}
+\end{figure}
+\noindent This is the bar graph of total number of elements versus the speedup.\\
+All the threads have been plotted in the same graph in order to compare the time taken by them.\\ 
+We have also plotted the variance of the speedup in form of error bars.\\
+The number of elements are 1000,10000,100000,1000000.\\
+\clearpage
+\end{document}
